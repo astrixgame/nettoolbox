@@ -1,0 +1,42 @@
+.InputGroup {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 1.2rem;
+}
+
+.Error {
+  border-color: #f87171;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+
+.ErrorMessage {
+  color: #f87171;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
+
+input, select, textarea {
+  background: var(--bg-dark);
+  border: 1px solid var(--border);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus {
+  border-color: var(--accent);
+}
+
+input:disabled {
+  color: var(--text-dim);
+  cursor: text;
+}

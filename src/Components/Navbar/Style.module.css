@@ -1,0 +1,60 @@
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  background-color: var(--bg-card);
+  border-right: 1px solid var(--border);
+  padding: 1.5rem;
+}
+
+.Logo {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: var(--accent);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.NavLinks {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.NavGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.NavLabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.NavLinks a {
+  padding: 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: var(--text-main);
+  list-style: none;
+  margin-bottom: 4px;
+  text-decoration: none;
+}
+
+.NavLinks a:hover {
+  background: var(--border);
+}
+
+.NavLinks a.Active {
+  background: var(--accent);
+  color: var(--bg-dark);
+  font-weight: 600;
+}

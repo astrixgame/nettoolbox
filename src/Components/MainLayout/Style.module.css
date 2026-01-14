@@ -1,0 +1,19 @@
+.MainLayout {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: var(--text-main);
+  background-color: var(--bg-dark);
+}
+
+.NavbarWrapper {
+  display: flex;
+  flex: 0 0 auto;
+  width: 260px;
+}
+
+.ContentWrapper {
+  flex: 1 1 auto;
+  padding: 2rem;
+  overflow-y: auto;
+}
